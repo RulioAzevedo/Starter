@@ -22,6 +22,8 @@ app.get("/", (req, res) => {
     url: "www.google.com",
   });
 
+  console.log("test");
+
   return res.send("Hello");
 });
 
